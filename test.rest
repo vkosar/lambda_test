@@ -1,0 +1,26 @@
+
+GET http://localhost:3000/dev/hello/echo?key=value
+
+###
+
+POST http://localhost:3000/dev/hello/echo
+Content-Type: application/json
+
+{
+    "data1": "value1",
+    "data2": "value2"
+}
+
+###
+
+GET  https://ix8ktqaqpg.execute-api.us-east-1.amazonaws.com/dev/hello/echo?key=value
+
+###
+
+POST https://ix8ktqaqpg.execute-api.us-east-1.amazonaws.com/dev/hello/echo
+Content-Type: application/json
+
+{
+    "data1": "value1",
+    "data2": "value2"
+}
